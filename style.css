@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(239, 239, 239);
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px rgb(113, 113, 113);
+}
+.container h2
+{
+    margin: 0rem 0rem 2rem 0rem;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.amount
+{
+    margin: 0rem 0rem 2rem 0rem;
+}
+#amtp
+{
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 10px;
+    width: 280px;
+    height: 50px;
+    padding-left: 0.5rem;
+}
+.fromto
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fromto i
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    margin-top: 10px;
+}
+.countryimg
+{
+    width: 45px;
+}
+.dropdown
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 10px;
+}
+#amt
+{
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+}
+.from
+{
+    margin: 0rem 2rem 0rem 0rem;
+
+}
+.to
+{
+    margin: 0rem 0rem 0rem 2rem;
+}
+form select,button,input
+{
+    border: none;
+    outline: none;
+}
+.msg
+{
+    margin: 1rem 0rem 0rem 0rem;
+}
+.btn
+{
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 10px;
+    width: 280px;
+    height: 50px;
+    padding: 0.5rem;
+    margin: 2rem 0rem 0rem 0rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+form .btn:hover
+{
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all .5s;
+}

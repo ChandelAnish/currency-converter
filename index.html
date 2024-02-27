@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        
+        <h2>Currency Converter</h2>
+        <form action="">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input id="amtp" type="text" value="100" id="amt">
+            </div>
+            <div class="fromto">
+                <div class="from">
+                    <p>From</p>
+                    <div class="dropdown">
+                        <img id="imgfrom" class="countryimg" src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from" id="">
+
+                        </select>
+                    </div>
+                </div>
+        
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        
+                <div class="to">
+                    <p>To</p>
+                    <div class="dropdown">
+                        <img id="imgto" class="countryimg" src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to" id="">
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <p class="msg">
+
+            </p>
+            <button class="btn">Exchange Rate</button>
+        </form>
+
+
+    </div>
+    <script src="countries.js"></script>
+    <!-- must load countries,js file first otherwise it will so error since we need to access it in script.js so it must be loaded before script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
